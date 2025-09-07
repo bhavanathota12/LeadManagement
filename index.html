@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Lead Management</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Lead Management Module</h1>
+
+    
+    <form id="leadForm" class="form">
+      <input type="text" id="name" placeholder="FullName" required />
+      <input type="email" id="email" placeholder="Email" required />
+      <input type="text" id="phone" placeholder="Phone" />
+      <input type="text" id="company" placeholder="Company"/>
+      <button type="submit">Submit</button>
+      <button type="submit">Add Leads</button>
+    </form>
+
+    
+    <div class="lead-list">
+      <h2>Leads</h2>
+      <ul id="leads"></ul>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
